@@ -46,5 +46,5 @@ class Webcam(commands.Cog):
         await ctx.send(f"Broadcasting webcam for {username} (ID: {userid}) on {monitor}")
 
 
-def setup(bot: commands.Bot):
-    bot.add_cog(Webcam(bot))
+async def setup(bot: commands.Bot):
+    await bot.add_cog(Webcam(bot))
