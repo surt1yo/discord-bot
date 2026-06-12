@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+
+}
+h1{
+    color: lightgreen;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+}
+.intro{
+    color: rgb(25, 0, 255);
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+.intro-text{
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+.who{
+    color: #12e056;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: 'Bagel Fat One', cursive, sans-serif;
+}
